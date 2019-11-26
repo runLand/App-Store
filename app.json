@@ -5,7 +5,8 @@
   ],
   "usingComponents": {
     "tab": "../component/tab/tab",
-    "search":"../component/search/search"
+    "search":"../component/search/search",
+    "appItem": "../component/app-item/app-item"
   },
   "window": {
     "backgroundTextStyle": "light",

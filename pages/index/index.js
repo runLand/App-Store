@@ -1,13 +1,13 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
 Page({
   data: {
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    baseAppDate:[]
   },
   //事件处理函数
   bindViewTap: function() {
@@ -17,12 +17,17 @@ Page({
   },
   
   onLoad: function () {
+    var _this = this;
     wx.request({
-      url: '/pmd/app/mall/baseapp',
+      url: "http://app.njnaedu.cn/pmd/app/mall/baseapp.json?sessionToken=",
       method:'GET',
       dataType:'JSON',
+      header: {
+        'content-type': 'application/x-www-form-urlencoded'
+      },
       success:function(res){
-         console.log(res)
+        
+        _this.data.baseAppDate = JSON.parse(res.data).value
       },
       fail:function(res){
         console.log(res)

@@ -1,0 +1,6 @@
+<view class="app-item" wx:for="{{data}}"> 
+  <view class="img-box">
+    <cover-image src="http://app.njnaedu.cn/files/{{item.logoList[0]}}?type=1"></cover-image>
+  </view>
+  <rich-text class="name">{{item.appName}}</rich-text>
+</view>

@@ -1,0 +1,7 @@
+.banner{
+   
+}
+.banner .banner-img{
+  width: auto;
+  height: auto;
+}
