@@ -1,0 +1,21 @@
+@import "../../app.wxss";
+
+.tab {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 1.4rem;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0.053333333333333rem 0.053333333333333rem 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.053333333333333rem 0.053333333333333rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.tab-item {
+  width: 2.506666666666667rem;
+  text-align: center;
+  line-height: 1.066666666666667rem;
+  font-size: 0.426666666666667rem;
+}

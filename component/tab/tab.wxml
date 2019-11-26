@@ -1,0 +1,5 @@
+<view class="tab">
+  <view class="tab-item">推荐</view>
+  <view class="tab-item">排行</view>
+  <view class="tab-item">分类</view>
+</view>
