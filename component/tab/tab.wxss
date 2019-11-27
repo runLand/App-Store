@@ -4,7 +4,7 @@
   width: 100%;
   display: flex;
   position: fixed;
-  top: 1.4rem;
+  top: 60px;
   left: 0;
   align-items: center;
   justify-content: center;
@@ -14,8 +14,8 @@
 }
 
 .tab-item {
-  width: 2.506666666666667rem;
+  width:180rpx;
   text-align: center;
-  line-height: 1.066666666666667rem;
-  font-size: 0.426666666666667rem;
+  line-height:96rpx;
+  font-size: 28rpx;
 }

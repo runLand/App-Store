@@ -1,4 +1,5 @@
 {
+  "navigationBarTitleText": "应用推荐",
   "usingComponents": {
     "banner": "../component/banner/banner"
   }

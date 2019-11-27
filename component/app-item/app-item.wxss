@@ -1,6 +1,24 @@
+.baseAppBox{
+  display: flex;
+  width: 100%;
+  justify-content: space-around
+}
 .app-item{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 25%;
+  height: 100%
+}
+.app-item cover-image{
+    width: 120rpx;
+    height: 120rpx;
+}
+.app-item .name{
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-align: center;
 }

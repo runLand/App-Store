@@ -7,7 +7,7 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    baseAppDate:[]
+    baseAppDate: []
   },
   //事件处理函数
   bindViewTap: function() {
@@ -26,8 +26,9 @@ Page({
         'content-type': 'application/x-www-form-urlencoded'
       },
       success:function(res){
-        
-        _this.data.baseAppDate = JSON.parse(res.data).value
+        _this.setData({
+          baseAppDate: JSON.parse(res.data).value
+        })
       },
       fail:function(res){
         console.log(res)

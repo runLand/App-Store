@@ -5,8 +5,6 @@
   <banner></banner>
   <view class="baseApp">
     <rich-text >基础应用</rich-text>
-    <view class="baseAppBox">
-     <appItem :data="baseAppDate"></appItem>
-    </view>
+     <appItem data="{{baseAppDate}}"></appItem>
   </view>
 </view>

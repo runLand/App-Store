@@ -1,5 +1,5 @@
 <view class="tab">
-  <view class="tab-item">推荐</view>
-  <view class="tab-item">排行</view>
-  <view class="tab-item">分类</view>
+  <navigator class="tab-item" url="/pages/index/index">推荐</navigator>
+  <navigator class="tab-item" url="/pages/rank/rank">排行</navigator>
+  <navigator class="tab-item" url="/pages/classify/classify">分类</navigator>
 </view>

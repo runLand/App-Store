@@ -5,10 +5,18 @@
   left: 0;
   z-index: 999;
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 32rpx;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  height: 44px;
 }
 
 input {
   width: 100%;
-  border: 1px solid #eee;
+  font-size: 28rpx; 
+  height: 64rpx;
+  box-sizing: border-box;
+  background-color: #eee;
+  padding: 0 16px;
+  border-radius: 16px;
 }
