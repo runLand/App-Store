@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/classify/classify"
+    "pages/classify/classify",
+    "pages/rank/rank"
   ],
   "usingComponents": {
     "tab": "../component/tab/tab",

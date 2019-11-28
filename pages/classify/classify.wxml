@@ -1,3 +1,54 @@
-<view class="">
+<wxs module="rank" >
 
+  var color = function (index) {
+  var num = (index + 1) % 6
+  switch (index) {
+
+    case 0:
+
+      return 'gradient-grey';
+
+      break;
+
+    case 1:
+
+      return 'gradient-orange ';
+
+      break;
+
+    case 2:
+
+      return 'gradient-purple';
+
+      break;
+    case 3:
+
+      return 'gradient-blue';
+
+      break;
+    case 4:
+
+      return 'gradient-pink';
+
+      break;
+    case 5:
+
+      return 'gradient-green';
+
+      break;
+
+  }
+
+};
+
+module.exports = {
+  style: color
+}
+</wxs>
+<view class="container">
+  <search/>
+  <tab></tab>
+  <view class="classify-box">
+    <view wx:for="{{appClassifyList}}" class="classify-item {{rank.style(index)}}">{{item.name}}</view>
+  </view>
 </view>

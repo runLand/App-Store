@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45c0499c-7821-4711-8195-d69009e23ea9" name="Default Changelist" comment="" />
+    <list default="true" id="45c0499c-7821-4711-8195-d69009e23ea9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/classify/classify.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classify/classify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/classify/classify.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classify/classify.wxml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
@@ -53,10 +60,25 @@
       <option name="presentableId" value="Default" />
       <updated>1574732856013</updated>
       <workItem from="1574732858058" duration="595000" />
+      <workItem from="1574838127286" duration="3000" />
+      <workItem from="1574844237722" duration="123000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,0 +1,63 @@
+.classify-box{
+  width: 100%;
+  font-size: 0;
+}
+.classify-item {
+  width: 46%;
+  height: 120rpx;
+  border-radius: 8rpx;
+  margin-top: 4%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  line-height: 120rpx;
+  color: #fff;
+  font-size: 28rpx;
+  display: inline-block;
+}
+.gradient-orange{
+    background-image: linear-gradient(135deg, #FECC31 0%, #ED8A3A 100%)
+}
+  .gradient-orange:active{
+
+    background-image: linear-gradient(136deg, #E5B82C 0%, #D67C34 100%)
+  }
+  .gradient-purple{
+
+    background-image: linear-gradient(136deg, #C287FB 0%, #6B52EE 100%)
+  }
+  .gradient-purple:active{
+
+    background-image: linear-gradient(136deg, #af7ae2 0%, #614ad7 100%)
+  }
+  .gradient-blue{
+
+    background-image: linear-gradient(134deg, #32C6D4 0%, #4778DC 100%)
+  }
+  .gradient-blue:active{
+
+    background-image: linear-gradient(134deg, #2db3bf 0%, #406cc6 100%)
+  }
+  .gradient-pink{
+
+    background-image: linear-gradient(135deg, #FC7C62 0%, #ED5987 100%)
+  }
+  .gradient-pink:active{
+
+    background-image: linear-gradient(135deg, #e37058 0%, #d6507a 100%)
+  }
+  .gradient-green{
+
+    background-image: linear-gradient(133deg, #9FF4E0 0%, #3FB888 100%)
+  }
+  .gradient-green:active{
+
+    background-image: linear-gradient(133deg, #8fdcca 0%, #39a67b 100%)
+  }
+  .gradient-grey{
+
+    background-image: linear-gradient(129deg, #6DB9C0 0%, #AB80B8 100%)
+  }
+  .gradient-grey:active{
+    background-image: linear-gradient(129deg, #62a7ad 0%, #9a73a6 100%)
+  }
